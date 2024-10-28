@@ -29,5 +29,19 @@ console.log("one")
 // confirm.log(typeof number2)
 
 
-let name=String(prompt("enter your name"))
-console.log(name)
+// let name=String(prompt("enter your name"))
+// console.log(name)
+
+// console.log(a)
+// var a=10;
+// console.log(b)
+// const b=10;
+sk()
+function sk(){
+    console.log('hello sk ')
+}
+// () function hoisting  s only possible with named function
+
+// function (){
+//     console.log("hello undeifne")
+// }

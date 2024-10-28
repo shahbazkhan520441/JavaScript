@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="Style.js" ></script>
+    <script src="Style.js"></script>
 </head>
+
 <body>
-    
+
+    <h2>My First JavaScript</h2>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        <br>
+        Click me to display Date and Time.</button>
+    <br>
+    <p id="demo"> hello javascript</p>
+    <br>
+    <button type="button" onclick='document.getElementById("demo").innerHTML="hello i am java" '>CLICK ME display
+        language you are using </button>
+
+    <br>
+    <button onclick="document.getElementById('myImage').src='/images/bulbonjpg.jpg'">Turn on the light</button>
+    <br>
+    <img id="myImage" src="/images/imageoff.png" style="width:100px">
+    <br>
+    <button onclick="document.getElementById('myImage').src='/images/imageoff.png'">Turn off the light</button>
+    <br>
+    <h2>change the css style</h2>
+    <br>
+    <p id="demo1">JavaScript can change the style of an HTML element.</p>
+    <br>
+    <button type="button" onclick="document.getElementById('demo1').style.fontSize='50px'">Click Me!</button>
+    <br>
+
+    <h1>hidden html element can be shown</h1>
+    <br>
+    <p id="abc" style="display: none;"> hello i am here javascript</p>
+    <br>
+    <button type="button" onclick="document.getElementById('abc').style.display='block'">click me!</button>
+
 </body>
+
 </html>
